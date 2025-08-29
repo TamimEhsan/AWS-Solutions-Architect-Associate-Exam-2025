@@ -1,0 +1,216 @@
+- Analytics
+    - Amazon Athena
+    - Amazon CloudSearch
+    - Amazon DataZone
+    - Amazon EMR
+    - Amazon FinSpace
+    - Amazon Kinesis
+    - Amazon Data Firehose
+    - Amazon Managed Service for Apache Flink
+    - Amazon Kinesis Data Streams
+    - Amazon Kinesis Video Streams
+    - Amazon OpenSearch Service
+    - Amazon OpenSearch Serverless
+    - Amazon Redshift
+    - Amazon Redshift Serverless
+    - QuickSight
+    - AWS Clean Rooms
+    - AWS Data Exchange
+    - AWS Data Pipeline
+    - AWS Entity Resolution
+    - AWS Glue
+    - AWS Lake Formation
+    - Amazon Managed Streaming for Apache Kafka (Amazon MSK)
+
+- Application Integration
+    - AWS Step Functions
+    - Amazon AppFlow
+    - AWS B2B Data Interchange
+    - Amazon EventBridge
+    - Amazon Managed Workflows for Apache Airflow (MWAA)
+    - Amazon MQ
+    - Amazon Simple Notification Service
+    - Amazon Simple Queue Service
+    - Amazon Simple Workflow Service
+
+- Compute
+    - Compare AWS compute services
+    - Amazon EC2
+    - Amazon EC2 Auto Scaling
+    - Amazon EC2 Image Builder
+    - Amazon Lightsail
+    - Amazon Linux 2023
+    - AWS App Runner
+    - AWS Batch
+    - AWS Elastic Beanstalk
+    - AWS Fargate
+    - AWS Lambda
+    - AWS Serverless Application Repository
+    - AWS Outposts
+    - AWS Wavelength
+    - VMware Cloud on AWS
+
+- Containers
+    - Amazon Elastic Container Registry
+    - Amazon Elastic Container Service
+    - Amazon Elastic Kubernetes Service
+    - AWS App2Container
+    - Red Hat OpenShift Service on AWS
+
+- Databases
+    - Compare AWS database services
+    - Amazon Aurora
+    - Amazon DynamoDB
+    - Amazon ElastiCache
+    - Amazon Keyspaces (for Apache Cassandra)
+    - Amazon MemoryDB
+    - Amazon Neptune
+    - Amazon Relational Database Service
+    - Amazon RDS for Db2
+    - Amazon RDS on VMware
+    - Amazon Timestream
+    - Amazon DocumentDB (with MongoDB compatibility)
+    - Amazon Lightsail managed databases
+
+- Developer Tools
+    - AWS Infrastructure Composer
+    - AWS Cloud9
+    - AWS CloudShell
+    - AWS CodeArtifact
+    - AWS CodeBuild
+    - Amazon CodeCatalyst
+    - AWS CodeCommit
+    - AWS CodeDeploy
+    - AWS CodePipeline
+    - Amazon Corretto
+    - AWS Fault Injection Service
+    - Amazon Q Developer
+    - AWS X-Ray
+
+- Frontend Web and mobile services
+    - AWS Amplify
+    - AWS AppSync
+    - AWS Device Farm
+    - Amazon Location Service
+
+- ML and AI
+    - Amazon Augmented AI
+    - Amazon Bedrock
+    - Amazon CodeGuru
+    - Amazon Comprehend
+    - Amazon DevOps Guru
+    - Amazon Forecast
+    - Amazon Fraud Detector
+    - Amazon Comprehend Medical
+    - Amazon Kendra
+    - Amazon Lex
+    - Amazon Lookout for Equipment
+    - Amazon Lookout for Metrics
+    - Amazon Lookout for Vision
+    - Amazon Monitron
+    - Amazon PartyRock
+    - Amazon Personalize
+    - Amazon Polly
+    - Amazon Q
+    - Amazon Rekognition
+    - Amazon SageMaker AI
+    - Amazon Textract
+    - Amazon Transcribe
+    - Amazon Translate
+    - AWS DeepComposer
+    - AWS DeepRacer
+    - AWS HealthLake
+    - AWS HealthScribe
+    - AWS Panorama
+
+- Management and Governance
+    - AWS Auto Scaling
+    - AWS CloudFormation
+    - AWS CloudTrail
+    - Amazon CloudWatch
+    - AWS Compute Optimizer
+    - AWS Console Mobile Application
+    - AWS Control Tower
+    - AWS Config
+    - AWS Health
+    - AWS Launch Wizard
+    - AWS License Manager
+    - Amazon Managed Grafana
+    - Amazon Managed Service for Prometheus
+    - AWS Organizations
+    - OpsWorks
+    - AWS Proton
+    - Amazon Q Developer in chat applications (formerly AWS Chatbot)
+    - AWS Service Catalog
+    - AWS Systems Manager
+    - AWS Trusted Advisor
+    - AWS User Notifications
+    - AWS Well-Architected Tool
+
+- Media
+    - Amazon Elastic Transcoder
+    - Amazon Interactive Video Service
+    - Amazon Nimble Studio
+    - AWS Elemental Appliances and Software
+    - AWS Elemental MediaConnect
+    - AWS Elemental MediaConvert
+    - AWS Elemental MediaLive
+    - AWS Elemental MediaPackage
+    - AWS Elemental MediaStore
+    - AWS Elemental MediaTailor
+
+- Networking and Content Delivery
+    - Amazon API Gateway
+    - Amazon CloudFront
+    - Amazon Route 53
+    - AWS Verified Access
+    - Amazon VPC
+    - Amazon VPC Lattice
+    - AWS App Mesh
+    - AWS Cloud Map
+    - AWS Direct Connect
+    - AWS Global Accelerator
+    - AWS PrivateLink
+    - AWS Private 5G
+    - AWS Transit Gateway
+    - AWS VPN
+    - Elastic Load Balancing
+    - Integrated Private Wireless on AWS
+
+- Security, Identity and Compliance
+    - Amazon Cognito
+    - Amazon Detective
+    - Amazon GuardDuty
+    - Amazon Inspector
+    - Amazon Macie
+    - Amazon Security Lake
+    - Amazon Verified Permissions
+    - AWS Artifact
+    - AWS Audit Manager
+    - AWS Certificate Manager
+    - AWS CloudHSM
+    - AWS Directory Service
+    - AWS Firewall Manager
+    - AWS Identity and Access Management
+    - AWS Key Management Service
+    - AWS Network Firewall
+    - AWS Resource Access Manager
+    - AWS Secrets Manager
+    - AWS Security Hub
+    - AWS Shield
+    - AWS IAM Identity Center
+    - AWS WAF
+    - AWS WAF Captcha
+
+- Storage
+    - AWS Backup
+    - Amazon Elastic Block Store
+    - AWS Elastic Disaster Recovery
+    - Amazon Elastic File System
+    - Amazon File Cache
+    - Amazon FSx for Lustre
+    - Amazon FSx for NetApp ONTAP
+    - Amazon FSx for OpenZFS
+    - Amazon FSx for Windows File Server
+    - Amazon Simple Storage Service
+    - AWS Storage Gateway
