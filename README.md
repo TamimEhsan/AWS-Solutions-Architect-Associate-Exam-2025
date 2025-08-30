@@ -1788,6 +1788,9 @@ AWS cost optimization strategies help you reduce your AWS costs without sacrific
 ## References
 
 - [Overview of Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html)
+- [AWS Well-Architected Framework - Security Pillar](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html)
+- [AWS Well-Architected Framework - Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
+- [Decision Guides](https://aws.amazon.com/getting-started/decision-guides/)
 
 ## Contributing
 
