@@ -161,6 +161,24 @@ Lambda is a powerful tool for building serverless applications. It is easy to us
 
 ### AWS Elastic Beanstalk
 
+AWS Elastic Beanstalk is a Platform as a Service (PaaS) that lets you quickly deploy and manage applications without worrying about the underlying infrastructure. You simply upload your code, and Elastic Beanstalk automatically handles deployment, load balancing, scaling, and monitoring. It supports popular languages and frameworks like Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker.
+
+Here is some short information about AWS Elastic Beanstalk that you will need to know to pass the AWS Certified Solutions Architect Associate exam:
+
+- Elastic Beanstalk is a managed service for deploying and scaling web applications.
+- It automatically handles provisioning of EC2 instances, load balancers, scaling, and health monitoring.
+- Supports multiple programming languages and Docker.
+
+Here are some additional details about AWS Elastic Beanstalk that you may want to know:
+
+- Developers can retain full control of underlying resources (EC2, RDS, etc.) if needed.
+- Integrates with CloudWatch for monitoring and CloudFormation under the hood for resource provisioning.
+- Supports both single-instance and load-balanced, auto-scaling environments.
+- Provides environment configuration using YAML files (.ebextensions).
+- Useful for rapid application deployment when you don’t want to manage infrastructure directly.
+
+Elastic Beanstalk is a convenient way to deploy applications with minimal setup. It abstracts infrastructure complexity while still allowing you to access and customize AWS resources if required.
+
 **Alternatives:**
 - Proprietary:
   - Heroku
@@ -686,6 +704,25 @@ AWS Direct Connect is a powerful tool for connecting your on-premises network to
   - WireGuard
 
 ### Amazon CloudFront
+
+Amazon CloudFront is a Content Delivery Network (CDN) that securely delivers data, videos, applications, and APIs to users with low latency and high transfer speeds. It caches content at edge locations worldwide to reduce load on your origin servers and improve user experience.
+
+Here is some short information about Amazon CloudFront that you will need to know to pass the AWS Certified Solutions Architect Associate exam:
+
+- CloudFront is a global CDN service.
+- It caches content at AWS edge locations to improve performance and reduce latency.
+- Can integrate with AWS Shield, WAF, and Route 53 for security and availability.
+
+Here are some additional details about Amazon CloudFront that you may want to know:
+
+- Supports both static and dynamic content delivery.
+- Can use S3 buckets, EC2 instances, or custom HTTP servers as origins.
+- Provides signed URLs and signed cookies for secure content distribution.
+- Supports HTTP/2, IPv6, and field-level encryption.
+- Often paired with S3 (for static websites) and API Gateway (for APIs).
+- Offers Origin Shield for improved cache hit ratios.
+
+CloudFront is a core service for delivering content quickly and securely across the globe. It integrates tightly with other AWS services for scalability, security, and cost efficiency.
 
 **Alternatives:**
 - Proprietary:
@@ -1425,7 +1462,24 @@ Here are some additional details about Redshift that you may want to know:
   - PostgreSQL + Citus
 
 ### Amazon OpenSearch Service
+Amazon OpenSearch Service (formerly Amazon Elasticsearch Service) is a fully managed service that makes it easy to deploy, secure, and run OpenSearch (and legacy Elasticsearch) clusters at scale. It is commonly used for log analytics, search, monitoring, and real-time data analysis.
 
+Here is some short information about Amazon OpenSearch Service that you will need to know to pass the AWS Certified Solutions Architect Associate exam:
+
+- OpenSearch Service is a managed search and analytics engine.
+- It is used for log analytics, full-text search, and application monitoring.
+- AWS handles provisioning, patching, scaling, and backups.
+
+Here are some additional details about Amazon OpenSearch Service that you may want to know:
+
+- Provides integrations with CloudWatch, Kinesis Data Firehose, and AWS Glue for ingesting data.
+- Offers Kibana (or OpenSearch Dashboards) for visualization.
+- Supports fine-grained access control with IAM and Cognito.
+- Offers UltraWarm and cold storage tiers for cost-efficient data retention.
+- Can be deployed across multiple Availability Zones for high availability.
+- Useful for observability pipelines, centralized logging, and search-heavy workloads.
+
+Amazon OpenSearch Service simplifies running powerful search and analytics workloads without the operational burden of managing a cluster manually.
 
 **Alternatives:**
 - Proprietary:
@@ -1439,6 +1493,25 @@ Here are some additional details about Redshift that you may want to know:
 ## ML and AI
 
 ### Amazon SageMaker
+
+Amazon SageMaker is a fully managed machine learning (ML) service that enables data scientists and developers to build, train, and deploy ML models quickly. It provides managed infrastructure, pre-built algorithms, notebooks, and integration with other AWS services for end-to-end ML workflows.
+
+Here is some short information about Amazon SageMaker that you will need to know to pass the AWS Certified Solutions Architect Associate exam:
+
+- SageMaker is a managed service for building, training, and deploying ML models.
+- Provides pre-built algorithms and Jupyter notebooks for development.
+- Supports deployment of models at scale with managed endpoints.
+
+Here are some additional details about Amazon SageMaker that you may want to know:
+
+- Offers SageMaker Studio, an IDE for ML with integrated experiment tracking and debugging.
+- Supports Bring-Your-Own-Model (BYOM) using custom Docker containers.
+- Integrates with S3 for training data storage and with CloudWatch for monitoring.
+- Provides SageMaker Autopilot for automated model building.
+- Includes built-in features like model registry, feature store, and bias detection.
+- Allows distributed training on GPU/CPU clusters.
+
+Amazon SageMaker is a comprehensive platform for end-to-end machine learning workflows, enabling rapid experimentation, scalable training, and easy deployment of ML models.
 
 **Alternatives:**
 - Proprietary:
