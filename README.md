@@ -762,7 +762,6 @@ Here are some additional details about SQS that you may want to know:
   - Azure Queue Storage
 - Open Source:
   - Apache Kafka
-  - RabbitMQ
 
 ### Amazon Simple Notification Service (SNS)
 
@@ -791,7 +790,7 @@ Here are some additional details about Amazon SNS that you may want to know:
   - Azure Event Grid
 - Open Source:
   - Kafka + Kafka Connect
-  - NATS JetStream
+  - RabbitMQ
 
 ### Amazon EventBridge
 
